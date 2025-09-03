@@ -10,7 +10,13 @@ a {
     justify-content: space-between;
     color: #fff;
     background-color: #4cb050;
-    padding: 50px;
+    padding: 30px 50px;
+    margin: 0;
+}
+.header img {
+    width: 150px;
+    margin: 0;
+    padding: 0;
 }
 .main-content {
     background-color: #f4f4f4;
@@ -18,7 +24,7 @@ a {
     align-items: center;
 }
 .main-content img {
-    width: 200px;
+    width: 150px;
     margin: 30px;
 }
 .footer {
