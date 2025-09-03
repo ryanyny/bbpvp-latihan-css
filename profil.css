@@ -1,12 +1,51 @@
 body {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: aqua;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: linear-gradient(135deg, #e0e0e0, #636161);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
-
-p {
-    text-indent: 2px;
+.card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
 }
-
-a {
+.title {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    position: relative;
+}
+.biodata-card {
+    text-align: left;
+    margin-bottom: 20px;
+}
+.biodata-card p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+.label {
+    font-weight: bold;
+    color: #333;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #636161;
+    color: #fff;
     text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background: #333;
+    box-shadow: 0 4px 12px #333;
 }

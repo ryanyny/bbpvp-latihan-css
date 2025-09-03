@@ -1,18 +1,22 @@
     body {
-        font-family: 'Courier New';
-        font-size: 20px;
-        font-variant: small-caps;
-        font-style: italic;
-        background-image: url(../latihan-css/image/18166.jpg);
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        background-image: url(../latihan-css/image/vimal-s-GBg3jyGS-Ug-unsplash.jpg);
         background-size: cover;
     }
     h1 {
-        color: blueviolet;
+        color: #636161;
     }
     p {
-        line-height: 1.6em;
-        color: rgb(14, 14, 13);
+        text-indent: 20px;
+        line-height: 20px;
+        color: #fff;
     }
     a {
+        background: #636161;
+        padding: 5px 10px;
+        border-radius: 4px;
+        font-size: 15px;
+        white-space: nowrap;
         text-decoration: none;
+        color: #fff;
     }
